@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Event Registration</title>
+    <link rel="stylesheet" href="l.css">
+      
+</head>
+<body>
+
+<header>
+    <h1>Community Event Registration</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#register">Register</a>
+</nav>
+
+<main>
+    <section id="about">
+        <h2>About the Event</h2>
+        <p>Welcome to our annual community event! This event brings together local residents for a day of fun, learning, and networking. Join us for workshops, games, and a chance to meet new friends.</p>
+    </section>
+
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <ul>
+            <li>10:00 AM - Opening Ceremony</li>
+            <li>11:00 AM - Workshop: Gardening Tips</li>
+            <li>1:00 PM - Lunch Break</li>
+            <li>2:00 PM - Workshop: Cooking on a Budget</li>
+            <li>4:00 PM - Community Games</li>
+            <li>6:00 PM - Closing Remarks</li>
+        </ul>
+    </section>
+
+    <section id="register">
+        <h2>Register for the Event</h2>
+        <form  method="get">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="events">Select Workshops:</label>
+            <select id="events" name="events[]" multiple required>
+                <option value="gardening">Gardening Tips</option>
+                <option value="cooking">Cooking on a Budget</option>
+            </select>
+            
+            <label for="comments">Comments or Questions:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+            
+            <button type="submit">Submit Registration</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Community Event. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
