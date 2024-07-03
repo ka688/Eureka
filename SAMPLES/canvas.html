@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <canvas id="show"></canvas>
+        <script>
+            var canvas = document.getElementById("show");
+            var ctx = canvas.getContext("2d");
+            ctx.strokeStyle="blue";
+            ctx.beginPath();
+            // this for angle
+            // ctx.moveTo(20, 20);
+            // ctx.lineTo(100, 20);
+            // ctx.lineTo(20, 100);
+            // ctx.closePath();
+            // this for Rect  
+            // ctx.rect(40,40,50,50);
+            ctx.arc(95,50,40,0,180);
+            ctx.closePath();
+            ctx.stroke();
+            ctx
+        </script>
+    </canvas>
+</body>
+</html>
