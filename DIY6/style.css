@@ -1,0 +1,19 @@
+.a1{
+ justify-content: center;
+ display: flex;
+    
+}
+
+.c{
+    display: flex;
+    
+}
+
+.b{
+    margin-left: 300px;
+}
+.c{
+    background-color: rgb(114, 114, 114);
+    display: flex;
+    justify-content: end;
+}
