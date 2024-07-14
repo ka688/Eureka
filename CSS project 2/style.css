@@ -1,0 +1,188 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* border: 1px solid black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#a1{
+    height: 99%;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 25%;
+}
+
+/* yellow box */
+.color{
+    height: 120px;
+    width: 40px;
+    position: relative;
+    bottom: 1623px;
+    right: 376PX;
+    background-color: yellow;
+}
+/* yellow box */
+.img{
+    height: 110px;
+    width: 110px;
+    position: relative;
+    bottom: 1720px;
+    right: 350px ;
+    
+}
+ /* yellow line */
+.b1{
+  height: 10px;
+  width: 300px;
+  background-color: yellow;
+  margin-left: 374px;  
+  margin-top: 610px;
+}
+
+/* div3 */
+.b2{
+    height: 110px;
+    width: 300px;
+    position: relative;
+    bottom:113px;
+    right: 1px;
+    
+}
+/* yellow linw */
+.c1{
+    height: 2px;
+    width: 300px;
+    background-color: yellow;
+    margin-top: 0px;
+}
+.h5{
+    margin-top: 10px;
+}
+
+/* div2 */
+.b3{
+    height: 350px;
+    width: 300px;
+    position: relative;
+    bottom:580px;
+    right: 1px;
+    
+}
+
+/* div1 */
+.b4{
+    height: 120px;
+    width: 300px;
+    position: relative;
+    bottom:1055px;
+    right: 1px;
+    
+}
+
+/* leftside */
+
+/* div3 */
+.b22{
+    height: 195px;
+    width: 280px;
+    position: relative;
+    bottom:800px;
+    right: 350px;
+    
+}
+/* yellow linw */
+.c1{
+    height: 2px;
+    width: 280px;
+    background-color: yellow;
+    margin-top: 0px;
+}
+
+.b23{
+    height: 125px;
+    width: 280px;
+    position: relative;
+    bottom:1125px;
+    right: 350px;
+}
+.b24{
+    height: 100px;
+    width: 280px;
+    position: relative;
+    bottom: 1380px;
+    right: 350px;
+}
+.u{
+    width: 100px;
+    margin-left: 40px;
+}
+
+.l1{
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.l2{
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.l3{
+    height: 20px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+/* icons */
+.fa-solid{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.h7{
+    height: 20px;
+    width: 100px;
+    margin-left: 35px; 
+    position: relative;
+    bottom: 15px;
+}
+
+.fa-envelope{
+    width: 20px;
+    height: 20px;
+    margin-top: 28px;
+    position: relative;
+    right: 19px;
+}
+
+.h8{
+    height: 20px;
+    width: 160px;
+    margin-left: 35px; 
+    position: relative;
+    bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.fa-location-dot{
+    width: 20px;
+    height: 20px;
+    margin-top: 28px;
+    position: relative;
+    right: 16px;
+    bottom: 28px;
+}
+.h9{
+    position: relative;
+    left: 35px;
+    bottom: 49px;
+}
