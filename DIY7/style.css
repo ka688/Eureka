@@ -1,0 +1,20 @@
+/* universal selector */
+*{
+    background-color: yellow;
+}
+/* id selector */
+#a1{
+    color: blue;
+}
+/* class selector */
+.b1{
+ padding-left: 200px;
+}
+/* group selector */
+#a1, .b1{
+    border: 1px solid black;
+}
+/* Name selector */
+div{
+    margin-top: 90px;
+}
