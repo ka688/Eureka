@@ -9,6 +9,28 @@ html,body{
     height: 100%;
     width: 100%;
 }
+
+@media screen and (min-width:375px) and (max-width:667px){
+
+    .d2{
+        flex-direction: column;
+        
+    }
+    .d{
+        margin-top: 160%;
+        position: relative;
+        right: 90px;
+        width: 100%;
+
+    }
+    #box2 {
+        width: 100%;
+    }
+
+}
+
+
+
 /* #NAVBAR */
 .b2{
     height: 60px;
@@ -148,12 +170,13 @@ html,body{
 
 #box2{
     height: 200px;
-    width: 50%;
-    border: 1px solid black;
-    margin-left: 40%;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
    position: relative;
    
-   bottom: 550px;
+   bottom: 0px;
+   box-shadow: 0 0 10px rgba(226, 218, 218, 0.766), 0 0 15px rgba(219, 156, 156, 0.664), 0 0 350px rgba(231, 231, 231, 0.664);
 }
 .img{
     /* border: 1px solid black; */
@@ -161,6 +184,11 @@ html,body{
     width: 80px;
     margin-top: 20px;
     margin-left: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 10px;
+    object-fit: contain;
+    overflow: hidden;
 }
 
 .info{
@@ -169,6 +197,7 @@ html,body{
     margin-left: 150px;
     position: relative;
     bottom: 80px;
+   padding-top: 10px;
     
 }
 
@@ -195,7 +224,43 @@ td{
 /* BOX3 */
 
 #box3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 200px;
     width: 100%;
+    box-shadow: 0 0 10px rgba(226, 218, 218, 0.766), 0 0 15px rgba(219, 156, 156, 0.664), 0 0 350px rgba(231, 231, 231, 0.664);
+}
+
+
+
+/* <!-- LINE OF BOX --> */
+
+#lob{
+    width: 35%;
+    height: 40px;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-top: 300px;
+   
+}
+.sb{
+    height: 30px;
+    width: 10%;
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 5px;
+     border-radius: 5px ;
+     text-align: center;
+     justify-content: center;
+     padding-top: 4px;
+
+}
+
+.d{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 90vh;
+    margin-left: 40%;
+   position: relative;
+   bottom: 550px;
 }
