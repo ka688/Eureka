@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+
+.a{
+    border: 1px solid red;
+ }
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    
+}
+
+.btn1{
+    background-color: transparent;
+    border: none;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    text-shadow: 0 0 10px rgba(194, 2, 2, 0.664), 0 0 15px rgba(194, 2, 2, 0.664), 0 0 350px rgba(194, 2, 2, 0.664);    
+}
+
+.tcon{
+    border: 2px solid red;
+    background: url(img2.jpg);
+    width: 90%;
+    height: 450px;
+    background-size: 100% 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 64px;
+    box-shadow: 0 0 10px rgba(40, 35, 35, 0.766), 0 0 15px rgba(231, 231, 231, 0.664), 0 0 350px rgba(231, 231, 231, 0.664);
+    
+
+}
+.elo{
+    border: 1px solid black;
+    border-radius: 100px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.logo{
+   
+    height: 90px;
+    width: 90px;
+    border-color: rgb(10, 10, 10);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+    left: 90px;
+    padding-left: 20px;
+    border: 1px solid rgb(22, 20, 20); background-color: white;
+}
+
+.sbox1{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.loc1{
+   
+    margin-top: 10px;
+    height: 20px;
+}
+
+
+.head1{
+    color: rgb(253, 253, 253);
+    display: flex ;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-shadow: 0 0 10px rgba(194, 2, 2, 0.664), 0 0 15px rgba(194, 2, 2, 0.664), 0 0 350px rgba(194, 2, 2, 0.664);
+}
+
+.res{
+    
+    /* position: relative; */
+    min-width: 220px;
+    max-width: 330px;
+    background-color: white;
+    margin: 10PX;
+    border-color: black;
+    border: none;
+   
+}
+.res1{
+    width: 180px;
+    height: 20px;
+    border: none;
+    position: relative;
+    left: 10px;
+    font-size: medium;
+   
+    
+}
+.res1:focus{
+    outline: none;
+}
+    
+
+
+
+
+.fa-solid{
+    position: relative;
+    left: 10px;
+}
