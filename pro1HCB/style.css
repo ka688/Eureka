@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.b2{
+    height: 60px;
+    width: 100%;
+    background-color: red;
+    border: 1px solid black;
+    position: fixed;
+}
+
+.b3{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    height: 50%;
+    width: 20%;
+    margin-left: 70%;
+    /* border: 1px solid black; */
+    border: none;
+    position: relative;
+    top: 10px;
+    color: white;
+    
+}
+
+#btn{
+    border-radius: 5px;
+    border: 1px solid white;
+   
+}
+.btn1{
+    background-color: red;
+    color: white;
+    border: none;
+    
+   
+    
+}
+
+.elo{
+    height: 48px;
+    width: 4%;
+    border-color: rgb(10, 10, 10);
+    background-color: white;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom: 100px;
+    position: absolute;
+    left: 5%;
+    top: 5px;
+    
+}
+
+/* 2ns part */
+
+img-fluid{
+    height:"auto";
+    width:"100%";
+    
+}
+.carousel-inner{
+    height: 500px;
+    width: 100%;
+    
+}
+
+.bt{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.img{
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.nav-tabs .nav-link.active {
+    color: black !important;
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 2px solid black !important;
+}
+.nav-tabs .nav-link {
+    color: black !important;
+}
