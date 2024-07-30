@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<<device-width>>, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+</body>
+<script>
+//    Eg of Var Keyword 
+   function hello(){
+    if (true) {
+        var x=5; 
+    }
+    console.log(x);
+   }
+   hello();
+
+// ES6 eg of let 
+    function hello(){
+        if (true) {
+            let y=20; 
+            console.log(y);
+            
+        }
+        // console.log(y); bcoz y is not accessible outside the block
+    }  
+ 
+// Es6 eg of const
+    const z = 30;
+    console.log(z); 
+    // z=20;   error bcoz cant reassign value here
+
+// Scope of variable eg global and localand block var how work  
+    var globalvar ='i am global';
+
+    function hello(){
+        var localvar= 'i am local';
+        //  this is global anywhere use
+
+        if (true) {
+            let blockvar ='i am block';
+            console.log(blockvar)
+            // console.log(localvar)
+        }
+        console.log(localvar)
+    }
+    hello();
+    console.log(globalvar);
+    // console.log(localvar) here erroe bcoz he is local variable
+   
+
+
+</script>
+</html>
