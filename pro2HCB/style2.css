@@ -1,0 +1,65 @@
+.nav-link{
+    display: flex;
+    justify-content: end;
+}
+.d-flex{
+    margin-right: 30px;
+    /* size: 50px; */
+}
+.fa-solid{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+
+.img{
+    background: url(./eco-friendly-paper-shop-bag-with-raw-organic-green-vegetables-isolated-on-white-background-flat-lay-top-view-zero-waste-plastic-free-concept-healthy-clean-eating-diet-and-detox-agriculture-concep.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+}
+.heading{
+   display: flex;
+   flex-direction: column ;
+   margin-left: 100px;
+   color: green;
+   padding-top: 100px;
+}
+.head1{
+    font-size: large;
+}
+.head2{
+    font-size: 50px;
+}
+.head3{
+    font-size: 80px;
+    text-shadow: 6px 0 5px black;   
+}
+.head3:hover{
+    color: rgb(188, 75, 75);
+}
+.head4{
+    color: black;
+}
+.btn1{
+    height: 40px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 80px;
+    background-color: green;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+}
+.c1{
+   margin-left: 20px;
+}
+.dropdown-menu:hover{
+    cursor: pointer;
+}
+.btn-secondary{
+    background: transparent;
+}
